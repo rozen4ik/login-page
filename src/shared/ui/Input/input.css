@@ -1,0 +1,12 @@
+.inp {
+    width: 450px;   
+    height: 54px;  
+    padding: 24px 16px;
+    gap: auto;
+    opacity: 100%;
+    border-radius: 16px;
+    fill: #ffffff;
+    stroke: #BDBDBD;    
+    font-size: 16pt;
+    border: 1px solid #6E6CDF;
+}
