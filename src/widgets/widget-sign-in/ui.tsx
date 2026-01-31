@@ -1,5 +1,5 @@
 import { Button, Input, Title, Text } from "../../shared/ui";
-import "./widget-sign.css";
+import "./widget-sign-in.css";
 
 interface PropsType {
     onSumbit: (data: {
@@ -19,7 +19,6 @@ export const WidgetSignIn = ({ onSumbit }: PropsType) => {
     };
 
     return (
-
         <form className="widgetSignIn" onSubmit={handleSumbit}>
             <Title tag="h1">Welcome Back</Title>
             <Text className="text" style={{ marginBottom: "70px" }}>Please login your account</Text>

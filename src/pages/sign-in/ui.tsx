@@ -1,13 +1,12 @@
 import { WidgetSignIn } from "../../widgets";
 import "./sign-in.css";
-import { useLogin } from "../../features";
+import { useSignIn } from "../../features";
 
 export const SignIn = () => {
-    const { login } = useLogin();
+    const { login } = useSignIn();
 
     return (
-        <div className="signIn">
-            {/* <WidgetLogo /> */}
+        <div className="signIn">            
             <WidgetSignIn onSumbit={login} />
         </div>
     );
