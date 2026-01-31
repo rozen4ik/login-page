@@ -1,7 +1,7 @@
+import { Logo } from "../../shared/ui"
+
 export const WidgetLogo = () => {
     return (
-        <div>
-            <h1>LOGO</h1>
-        </div>
+        <Logo />
     )
 }
